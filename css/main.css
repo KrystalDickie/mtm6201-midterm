@@ -341,6 +341,10 @@ h2 {
     color: #3c3b3a;
 }
 
+.header-about img {
+    width: 100%;
+}
+
 .paragraph-two {
     margin-top: 1rem;
     margin-bottom: 1rem;
