@@ -1,0 +1,709 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET */
+
+
+/* MY MAIN STYLES */
+
+
+
+body {
+    font-family: "raleway", sans-serif;
+}
+
+
+/* NAV STYLES */
+
+.nav-container {
+    background-color: #3C3B39;
+    height: 15rem;
+}
+
+.nav-container nav {
+    text-align: center;
+}
+
+.nav-container img {
+    display: block;
+    margin: auto;
+}
+
+.nav-container nav ul li {
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container nav ul li a { 
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container nav ul li .current {
+    font-weight: bold;
+}
+
+
+/* HOME PAGE STYLES */
+
+body {
+    background-color: white;
+}
+
+
+h1 {
+    margin: auto;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #3C3B39;
+}
+
+.paragraph-one {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 7.5rem;
+    color: #3c3b3a;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2.5rem;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.grid-item p {
+    text-align: center;
+    color:  #26a682;
+    font-size: 1rem;
+}
+
+.get-started button {
+    background-color: #26a682;
+    font-weight: bold;
+    border: none;
+    
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    font-size: 30px;
+    color: white;
+    padding: 0.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 20px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.discover img {
+    display: block;
+    margin: 0 auto;
+}
+
+.school img {
+    display: block;
+    margin: auto;
+}
+
+.discover-algonquin h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.discover-algonquin h3 {
+    font-size: 1.5rem;
+    color: #26a682;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.discover-algonquin p {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 7.5rem;
+    color: #3c3b3a;
+}
+
+.discover-algonquin button {
+    background-color: #26a682;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    font-size: 24px;
+    color: white;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    display: block;
+    margin-left: 17rem;
+    margin-top: 2rem;
+}
+
+.discover-algonquin {
+    padding-bottom: 2rem;
+}
+
+.simon {
+    background-color: #3C3B39;
+    padding-top: 2rem;
+}
+
+.simon img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 1.5rem;
+}
+
+.simon h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.simon p {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.entertainment {
+    padding-bottom: 2rem;
+}
+
+.entertainment-image img {
+    width: 100%;
+}
+
+.entertainment h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.entertainment h3 {
+    font-size: 1.5rem;
+    color: #26a682;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.entertainment p {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 7.5rem;
+    color: #3c3b3a;
+}
+
+.entertainment button {
+    background-color: #26a682;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    font-size: 24px;
+    color: white;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    display: block;
+    margin-left: 17rem;
+    margin-top: 2rem;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    background-color: #3c3b3a;
+    padding: 2rem;
+}
+
+footer h5 {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer .socials {
+    text-align: center;
+}
+
+footer .socials img {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+/* ABOUT STYLES */
+
+.header-about h1 {
+    line-height: 2.5rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #26a682;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.header-about {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 7.5rem;
+    color: #3c3b3a;
+}
+
+.paragraph-two {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.school img {
+    width: 100%;
+    max-width: 100%
+}
+
+.about-section img {
+    width: 100%;
+}
+
+.services-image img {
+    width: 100%;
+}
+
+.restaurant {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.restaurant img {
+    float: left;
+    display: none;
+}
+
+.bowling-image {
+    float: right;
+}
+
+.bowling-image img {
+    display: none;
+}
+
+.about-section {
+    background-color: #f2f2f2;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 7.5rem;
+    color: #3c3b3a;
+}
+
+.services-section p {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 7.5rem;
+    color: #3c3b3a;
+}
+
+.bowling {
+    background-color: #f2f2f2;
+}
+
+.rock-climbing {
+    background-color: #f2f2f2;
+}
+
+.newsletter-banner {
+    background-color: #3c3b3a;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.newsletter-banner h4 {
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.newsletter-banner button {
+    background-color: #26a682;
+    font-weight: bold;
+    border: none;
+    font-size: 24px;
+    color: white;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+}
+
+h5 {
+    font-size: 5rem;
+    padding: 2rem;
+    text-align: center;
+    color: #3c3b3a;
+    font-weight: bold;
+}
+
+.sponsors img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* CONTACT STYLES */
+
+.contact-main h1 {
+    padding-left: 2rem;
+    padding-right: 8rem;
+    text-align: left;
+}
+
+.contact-main p {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 7.5rem;
+    color: #3c3b3a;
+}
+
+
+.contact-main img {
+    margin: auto;
+    width: 100%;
+}
+
+.form-container {
+    background-color: #26a682;
+    border-radius: 20px;
+    color: white;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 500px;
+}
+
+form label {
+    margin: auto;
+    width: 100%;
+    float: left;
+    padding: 5px;
+}
+
+form input {
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 5px;
+
+}
+
+input, textarea {
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+
+  }
+
+  .location p {
+      text-align: left;
+      padding: 1rem;
+      padding-left: 2rem;
+  }
+
+
+h6 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* TABLET MEDIA QUERYS */
+/* Media query's are breaking for some reason and break the website at cerain points, I can't seem to fix it*/
+
+@media only screen and (min-width: 768px) {
+.nav-container {
+    background-color: #3C3B39;
+    height: 8rem;
+    overflow: hidden;
+}
+
+.nav-container nav {
+    display: inline;
+}
+
+.nav-container nav ul {
+    float: right;
+    margin-top: 5rem;
+}
+
+.nav-container nav ul li{
+    display: inline;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+}
+
+.nav-container img {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.grid-container {
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2.5rem;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.school img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.discover img {
+    margin: auto;
+    display: block;
+}
+
+.discover-algonquin button {
+    margin-left: 30rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.simon {
+    height: 250px;
+}
+.simon-title {
+    float: left;
+    padding: 2rem;
+}
+
+.simon .simon-title img {
+    width: 80px;
+
+}
+
+.simon p {
+    margin: auto;
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.entertainment-image img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.entertainment button {
+    margin-left: 30rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.restaurant img {
+    float: left;
+    padding: 2rem 2rem 0 0;
+    margin: auto;
+    width: 125%;
+    height: 300px;
+    display: block;
+}
+
+.bar-image {
+    width: 20%;
+}
+
+.bowling {
+    padding-bottom: 5rem;
+    margin: auto;
+}
+
+.bowling-image {
+    width: 20%;
+    padding: 2rem;
+}
+
+.bowling p {
+    margin: auto;
+}
+
+.bowling-image img {
+    float: right;
+    height: 250px;
+    margin: auto;
+    width: 105%;
+    display: block;
+}
+
+
+}
+
+/* DESKTOP STYLES */
+
+@media only screen and (min-width: 992px) {
+    .desktop-left {
+        width: 50%;
+        float: left;
+        padding: 2.5rem;
+    }
+
+    .discover img {
+        width: 40%;
+        float: right;
+        padding: 2rem;
+    }
+
+    .get-started button {
+        margin-bottom: 1rem;
+    }
+
+    .grid-container {
+        padding-left: 1rem;
+    }
+
+    .school img {
+        width: 25%;
+        float: left;
+        padding: 2rem;
+    }
+
+    .discover-algonquin {
+        padding: 4rem;
+
+    }
+
+
+     .entertainment-image img {
+        width: 40%;
+        float: right;
+        padding: 2rem;
+    }
+
+    main .discover-section {
+        background-color: #f2f2f2;
+    }
+
+    .simon p {
+        padding: 4rem;
+        margin: auto;
+    }
+}
